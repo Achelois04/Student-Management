@@ -1,0 +1,214 @@
+body {
+    background-image: url('../images/second_bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page_logo {
+    height: 200px; 
+    width: 200px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-right: 10px;
+}
+
+.tabs {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    border-style: initial;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.classroom_tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.student_tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.courses_tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.attendance_tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.exam_tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.grades_tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.teacher_tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.parent_tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.tabs button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tabs button:hover {
+    background-color: rgb(112, 38, 38);
+}
+
+.button1 {
+    background-color: inherit;
+    border: none;
+    color: white;
+    padding: 50px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 200px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #ead8bf;
+    color: white;
+}
+
+.button2 {
+    background-color: inherit;
+    border: none;
+    color: white;
+    padding: 50px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: #ead8bf;
+    color: white;
+}
+
+.button3 {
+    background-color: inherit;
+    border: none;
+    color: white;
+    padding: 50px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 30px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button3:hover {
+    background-color: #ead8bf;
+    color: white;
+}
+
+.button1 button {
+    background-color: inherit;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 24px;
+}
+
+.button2 button {
+    background-color: inherit;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 24px;
+}
+
+.button3 button {
+    background-color: inherit;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 24px;
+}

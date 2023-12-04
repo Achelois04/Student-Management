@@ -1,0 +1,227 @@
+body
+{
+    background: url("Photos/second_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    
+}
+
+a:link 
+{
+    text-decoration: none;
+}
+
+.header
+{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.page_logo
+{
+    height: 200px;
+    width: 200px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-right: 10px;
+}
+
+.tabs 
+{
+    overflow: hidden;
+    border: 3px solid #ccc;
+    border-radius: 15px;
+    border-style: initial;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.classroom_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.student_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.courses_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.attendance_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.exam_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.grades_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.teacher_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.parent_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.classroom_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+  
+  
+.tabs button 
+{
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+  
+.tabs button:hover {
+background-color: rgb(115, 5, 5);
+}
+
+/* Create an active/current tablink class */
+.tabs button.active {
+background-color: #ccc;
+}
+
+.classButton
+{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+
+  
+    
+}
+
+.ClassroomButton
+{
+    background-color: white;
+    height: 150px;
+    width:  250px;
+    border-radius: 10px;
+    margin-top: 200px;
+    color: black;
+    transition: .5s;
+    margin-inline-start: 10px;
+    font-size: 20;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    padding-top: 60px;
+    padding-left: 70px;
+    
+    
+}
+.ClassroomButton:hover
+{
+    transform: scale(1.2);
+    
+}
+    
+.ClassroomButton:active 
+{
+    box-shadow: 0 5px white;
+    transform: translateY(4px);
+}
+.ClassroomAndStudentButton
+{
+    background-color:white;
+    height: 150px;
+    width:  250px;
+    border-radius: 10px;
+    margin-top: 200px;
+    color: black;
+    transition: .5s;
+    margin-inline-start: 10px;
+    font-size: 20;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    padding-top: 60px;
+    padding-left: 10px;
+}
+.ClassroomAndStudentButton:hover
+{
+    transform: scale(1.2);
+
+}
+
+.ClassroomAndStudentButton:active 
+{
+  box-shadow: 0 5px white;
+  transform: translateY(4px);
+}

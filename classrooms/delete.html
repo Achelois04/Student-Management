@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/practice_v2.css">
+
+    <title>Practice 101 v1</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img class="page_logo" src="../assets/images/school_logo.png">
+        </div>
+    </div>
+
+    <div class="navbar">
+        <div class="subnav">
+            <button class="subnavbtn">Classroom</button>
+            <div class="sub-menu-container">
+                <div class="subnav-content">
+                    <a href="classrooms/se" id="classroom_search" class="btn-left"> <i class="fa fa-search" aria-hidden="true"></i> Search </a>
+                    <a href="#classroom_add" class="btn-center"> <i class="fa fa-plus-circle" aria-hidden="true"></i> Add </a>
+                    <a href="classrooms/delete" id="classroom_delete" class="btn-right"> <i class="fa fa-trash-o" aria-hidden="true"></i> Delete </a>
+                </div>
+            </div>
+            <div class="menu-name">
+                Classroom Menu
+            </div>
+        </div>
+        <div class="subnav">
+            <button class="subnavbtn">Student</button>
+            <div class="subnav-content">
+                <a href="student/search" id="student_search" class="btn-left"> <i class="fa fa-search" aria-hidden="true"></i> Search </a>
+                <a href="#student_add" class="btn-center"> <i class="fa fa-plus-circle" aria-hidden="true"></i> Add </a>
+                <a href="student/delete" id="student_delete" class="btn-right"> <i class="fa fa-trash-o" aria-hidden="true"></i> Delete </a>
+            </div>
+            <div class="menu-name">
+                Student Menu
+            </div>
+        </div>
+        <div class="subnav">
+            <button class="subnavbtn">Courses</button>
+            <div class="subnav-content">
+                <a href="#courses_search" class="btn-left"> <i class="fa fa-search" aria-hidden="true"></i> Search </a>
+                <a href="#courses_add" class="btn-center"> <i class="fa fa-plus-circle" aria-hidden="true"></i> Add </a>
+                <a href="#courses_delete" class="btn-right"> <i class="fa fa-trash-o" aria-hidden="true"></i> Delete </a>
+            </div>
+            <div class="menu-name">
+                Courses Menu
+            </div>
+        </div>
+        <div class="subnav">
+            <button class="subnavbtn">Attendance</button>
+            <div class="subnav-content">
+                <a href="#attendance_search" class="btn-left"> <i class="fa fa-search" aria-hidden="true"></i> Search </a>
+                <a href="#attendance_add" class="btn-center"> <i class="fa fa-plus-circle" aria-hidden="true"></i> Add </a>
+                <a href="#attendance_delete" class="btn-right"> <i class="fa fa-trash-o" aria-hidden="true"></i> Delete </a>
+            </div>
+            <div class="menu-name">
+                Attendance Menu
+            </div>
+        </div>
+        <div class="subnav">
+            <button class="subnavbtn">Exams</button>
+            <div class="subnav-content">
+                <a href="#exams_search" class="btn-left"> <i class="fa fa-search" aria-hidden="true"></i> Search </a>
+                <a href="#exams_add" class="btn-center"> <i class="fa fa-plus-circle" aria-hidden="true"></i> Add </a>
+                <a href="#exams_delete" class="btn-right"> <i class="fa fa-trash-o" aria-hidden="true"></i> Delete </a>
+            </div>
+            <div class="menu-name">
+                Exams Menu
+            </div>
+        </div>
+        <div class="subnav">
+            <button class="subnavbtn">Grades</button>
+            <div class="subnav-content">
+                <a href="#grades_search" class="btn-left"> <i class="fa fa-search" aria-hidden="true"></i> Search </a>
+                <a href="#grades_add" class="btn-center"> <i class="fa fa-plus-circle" aria-hidden="true"></i> Add </a>
+                <a href="#grades_delete" class="btn-right"> <i class="fa fa-trash-o" aria-hidden="true"></i> Delete </a>
+            </div>
+            <div class="menu-name">
+                Grades Menu
+            </div>
+        </div>
+        <div class="subnav">
+            <button class="subnavbtn">Teacher</button>
+            <div class="subnav-content">
+                <a href="#teacher_search" class="btn-left"> <i class="fa fa-search" aria-hidden="true"></i> Search </a>
+                <a href="#teacher_add" class="btn-center"> <i class="fa fa-plus-circle" aria-hidden="true"></i> Add </a>
+                <a href="#teacher_delete" class="btn-right"> <i class="fa fa-trash-o" aria-hidden="true"></i> Delete </a>
+            </div>
+            <div class="menu-name">
+                Teacer Menu
+            </div>
+        </div>
+        <div class="subnav">
+            <button class="subnavbtn">Parent</button>
+            <div class="subnav-content">
+                <a href="#parent_search" class="btn-left"> <i class="fa fa-search" aria-hidden="true"></i> Search </a>
+                <a href="#parent_add" class="btn-center"> <i class="fa fa-plus-circle" aria-hidden="true"></i> Add </a>
+                <a href="#parent_delete" class="btn-right"> <i class="fa fa-trash-o" aria-hidden="true"></i> Delete </a>
+            </div>
+            <div class="menu-name">
+                Parent Menu
+            </div>
+        </div>
+    </div>
+
+    <div class="form-search-container">
+        <div class="row-1">
+            <a href="../practice_v2.html" class="btn-back"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Back</a>
+        </div>
+        <div class="row-2">
+            <label for="" class="lbl-search-classroom"> Enter Classroom Id to Delete: </label>
+            <input type="text" class="text-search-classroom" />
+        </div>
+        <div class="row-3">
+            <button class="button btn-search">Delete</button>
+            <br>
+            <button class="button btn-clear">Clear</button>
+        </div>
+    </div>
+
+    <div style="padding:0 16px">
+
+    </div>
+
+</body>
+
+</html>

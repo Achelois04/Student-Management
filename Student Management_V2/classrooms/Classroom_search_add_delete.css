@@ -1,0 +1,316 @@
+body
+{
+    background: url("Photos/second_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    
+}
+
+a:link 
+{
+    text-decoration: none;
+}
+.header
+{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.page_logo
+{
+    height: 200px;
+    width: 200px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-right: 10px;
+}
+
+.tabs 
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    border-style: initial;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.classroom_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-width: 30px;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.student_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.courses_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.attendance_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.exam_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.grades_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.teacher_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.parent_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.classroom_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+  
+  
+.tabs button 
+{
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+  
+.tabs button:hover {
+background-color: rgb(112, 38, 38);
+}
+
+/* Create an active/current tablink class */
+.tabs button.active {
+background-color: #ccc;
+}
+
+.tabcontent 
+{
+display: none;
+padding: 6px 12px;
+border-top: none;
+}
+
+.Selection
+{
+    align-items: center;
+    justify-content: space-evenly;
+    display:flex;
+    margin-top: 200px;
+}
+
+.search_select
+{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+
+.add_select
+{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+
+.delete_select
+{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+.search_button
+{
+    background-color: inherit;
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    margin-top: 10px;
+    transition: .5s;
+    color: white;
+}
+
+
+.search_button:hover
+{
+    transform: scale(1.2);
+    text-decoration: none;
+    
+}
+    
+.search_button:active 
+{
+    box-shadow: 0 5px white;
+    transform: translateY(4px);
+    text-decoration: none;
+}
+.add_button
+{
+
+    background-color: inherit;
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    margin-top: 10px;
+    transition: .5s;
+    color: white;
+}
+.add_button:hover
+{
+    transform: scale(1.2);
+
+}
+
+.add_button:active 
+{
+  box-shadow: 0 5px white;
+  transform: translateY(4px);
+}
+
+.delete_button
+{
+    background-color: inherit;
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    margin-top: 10px;
+    transition: .5s;
+    color: white;
+    
+}
+.delete_button:hover
+{
+    transform: scale(1.2);
+
+}
+
+.delete_button:active 
+{
+  box-shadow: 0 5px white;
+  transform: translateY(4px);
+}
+
+.pfp_search
+{
+    height: 30px;
+    width: 30px;
+    padding-top:  20px;
+    padding-left: 5px;
+    margin-right: 10px;
+    display: flex;
+  
+}
+
+.pfp_add
+{
+    height: 30px;
+    width: 30px;
+    padding-top:  20px;
+    padding-left: 5px;
+    margin-right: 10px;
+    display: flex;
+
+}
+
+.pfp_delete
+{
+    height: 30px;
+    width: 30px;
+    padding-top:  20px;
+    padding-left: 5px;
+    margin-right: 10px;
+    display: flex;
+}
+

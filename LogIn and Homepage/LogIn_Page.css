@@ -1,0 +1,148 @@
+body
+{
+    background: url("Photos/login_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    
+}
+.header
+{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.page_logo
+{
+    height: 500px;
+    width: 500px;
+    padding-top: 400px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-right: 10px;
+}
+.Login_holder
+{
+    height: 100%; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+   
+    
+}
+
+.faculty
+{
+    height: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.username
+{
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.password
+{
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.textfield
+{
+    width: 500px;
+    height: 50px;   
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: black
+    
+}
+
+.textfield::placeholder
+{
+    color:black;
+}
+
+.button
+{
+    align-items: center;
+    justify-content: center;
+    display:inline-block;
+}
+
+.Clear_button
+{
+    background-color: rgb(114, 120, 120);
+    height: 50px;
+    width:  200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+    transition: .5s;
+    margin-inline-start: 10px;
+    font-size: 20;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+    
+}
+.Clear_button:hover
+{
+        background-color: lightblue
+    
+}
+    
+.Clear_button:active 
+{
+    background-color: lightblue;
+    box-shadow: 0 5px white;
+    transform: translateY(4px);
+}
+.Submit_button
+{
+    background-color: rgb(61, 18, 232);
+    height: 50px;
+    width:  200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+    transition: .5s;
+    margin-inline-start: 95px;
+    font-size: 20;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.Submit_button:hover
+{
+    background-color: lightblue
+
+}
+
+.Submit_button:active {
+  background-color: lightblue;
+  box-shadow: 0 5px white;
+  transform: translateY(4px);
+}

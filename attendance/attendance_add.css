@@ -1,0 +1,330 @@
+body
+{
+    background: url("Photos/second_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    
+}
+.header
+{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page_logo
+{
+    height: 200px;
+    width: 200px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-right: 10px;
+}
+
+.tabs 
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    border-style: initial;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+  
+    
+}
+
+.classroom_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-width: 30px;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.student_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.courses_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.attendance_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.exam_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.grades_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.teacher_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.parent_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+
+.classroom_tab
+{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+  
+  
+.tabs button 
+{
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+  
+.tabs button:hover {
+background-color: rgb(112, 38, 38);
+}
+
+/* Create an active/current tablink class */
+.tabs button.active {
+background-color: #ccc;
+}
+
+.container_holder
+{
+    background-color: white;
+    width: 100%;
+    margin-top: 30px;
+    height: 600px;  
+    padding-top: 10px;
+    position: relative;
+}
+
+.title
+{
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    
+}
+
+.title_header
+{
+    
+    width:100%;
+    justify-content: center;
+    display:flex;
+}
+
+.header_back
+{
+    display:flex;
+    align-items: center;
+    position:absolute;
+    padding-right: 30px;
+}
+
+.back_button
+{
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+    border: none;
+    color:brown;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.back
+{
+    color: brown;
+}
+
+.back_button:active
+{
+    background-color: lightblue;
+    box-shadow: 0 5px white;
+    transform: translateY(4px);
+}
+ .content
+ {
+  display: flex;
+  justify-content: center;
+ }
+
+ .textfield
+ {
+    width: 250px;
+    height: 30px;   
+    margin-left: 10px;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: black
+ }
+
+ .left
+ {
+    height: 100px;
+    width: 350px;
+    margin-top: 10px;
+ }
+
+ .Add_Attendance_Info
+{
+    color:brown;
+}
+
+ .Date_attendance
+ {
+    color:brown;
+ }
+
+ .Student_ID
+ {
+    color:brown;
+ }
+
+ .Status
+ {
+    color:brown;
+ }
+
+ .Remarks
+ {
+    color:brown;
+ }
+
+
+ .button
+{
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    margin-top: 300px;
+    margin-left: 300px;
+
+}
+.Clear_button
+{
+    background-color: rgb(237, 216, 160);
+    height: 40px;
+    width:  150px;
+    border-radius: 10px;
+    border: none;
+    color: brown;
+    transition: .5s;
+    font-size: 20;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-right: 30px;
+    margin-top: 50px;
+    
+    
+}
+.Clear_button:hover
+{
+        background-color: rgb(199, 160, 90)
+    
+}
+    
+.Clear_button:active 
+{
+    background-color: lightblue;
+    box-shadow: 0 5px white;
+    transform: translateY(4px);
+}
+.Submit_button
+{
+    background-color: rgb(52, 144, 202);
+    height: 40px;
+    width:  150px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    transition: .5s;
+    font-size: 20;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-right: 60px;
+    margin-top: 50px;
+}
+.Submit_button:hover
+{
+    background-color: lightblue
+
+}
+
+.Submit_button:active {
+  background-color: lightblue;
+  box-shadow: 0 5px white;
+  transform: translateY(4px);
+}
